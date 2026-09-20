@@ -7,11 +7,14 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
-    "types": ["node"],
-    "esModuleInterop": true,
     "skipLibCheck": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+    "rewriteRelativeImportExtensions": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "types": ["node"],
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "tests/**/*.test.ts"]
